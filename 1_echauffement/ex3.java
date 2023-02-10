@@ -1,6 +1,6 @@
 class Ex3 {
 	
-	public static void main() {
+	public static void main(String[] args) {
 		
 		
 

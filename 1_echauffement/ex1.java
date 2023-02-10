@@ -4,7 +4,7 @@ class Ex1 {
 		return a[i-1] >= a[i] && a[i+1] >= a[i]; 
 	}
 
-	public static void main() {
+	public static void main(String[] args) {
 		
 		
 
