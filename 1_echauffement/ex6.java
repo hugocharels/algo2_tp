@@ -1,4 +1,4 @@
-class Ex3 {
+class Ex6 {
 	
 	public static void main() {
 		
@@ -6,4 +6,3 @@ class Ex3 {
 
 	}
 }
-
