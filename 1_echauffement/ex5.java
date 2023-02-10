@@ -14,7 +14,6 @@ class Ex5 {
 		return best;
 	}
 
-
 	public static void main(String[] args) {
 		int[] array = new int[]{5, 10, 5, 5, 20, 12, 8, 5, 5};
 		System.out.println(findMostOccurrence(array));
