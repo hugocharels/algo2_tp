@@ -1,20 +1,18 @@
 class Ex6 {
 	
 	private static boolean contains(int[][] matrix, int findVal) {
-
-		int highX = matrix.length-1;
-		int highy = matrix.length-1;
-
-		int lowX = 0;
-		int lowy = 0;
-
-		int midX = highX / 2;
-		int midY = highY / 2;
-
-
-		// des choses
-
-		return false;		
+        int row = 0;
+        int col = matrix[0].length - 1;
+		while (row < matrix.length && col >= 0) {
+            if (matrix[row][col] == findVal) {
+                return true;
+            } else if (matrix[row][col] < findVal) {
+                row++;
+            } else {
+                col--;
+            }
+        }
+        return false;	
 	}
 
 
