@@ -1,18 +1,18 @@
 class Ex6 {
 	
 	private static boolean contains(int[][] matrix, int findVal) {
-        int row = 0;
-        int col = matrix[0].length - 1;
+        	int row = 0;
+        	int col = matrix[0].length - 1;
 		while (row < matrix.length && col >= 0) {
-            if (matrix[row][col] == findVal) {
-                return true;
-            } else if (matrix[row][col] < findVal) {
-                row++;
-            } else {
-                col--;
-            }
-        }
-        return false;	
+            		if (matrix[row][col] == findVal) {
+                		return true;
+            		} else if (matrix[row][col] < findVal) {
+                		row++;
+            		} else {
+                		col--;
+            		}
+        	}
+        	return false;	
 	}
 
 
