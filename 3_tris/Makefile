@@ -1,5 +1,5 @@
 
-main : ex1 ex2 ex3 ex4 ex5 ex6
+main : ex1 ex2 ex3 ex4 ex6
 
 ex1:
 	javac ex1.java
@@ -12,9 +12,6 @@ ex3:
 
 ex4:
 	javac ex4.java
-
-ex5:
-	javac ex5.java
 
 ex6:
 	javac ex6.java
