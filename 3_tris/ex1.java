@@ -1,19 +1,17 @@
 class Ex1 {
 
 	public static void swap(int[] tab, int i, int j) {
-		int tmp = tab[i];
-		tab[i] = tab[j];
-		tab[j] = tmp;
+		int tmp = tab[i]; tab[i] = tab[j]; tab[j] = tmp;
 	}
 
 	public static void partition(int[] tab) {
-		int l=0, h=tab.length, i=1;
+		int low=0, high=tab.length, i=1;
 		int v = tab[0];
-		while (i<h) {
+		while (i < high) {
 			if (tab[i] < v) {
-				swap(tab, i++, l++);
+				swap(tab, i++, low++);
 			} else if (tab[i] > v) {
-				swap(tab, i, --h);
+				swap(tab, i, --high);
 			} else {
 				i++;
 			}
