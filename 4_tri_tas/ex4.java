@@ -5,6 +5,7 @@ class Ex4 {
 	}
 
 	public static void swim(int[] heap, int idx) {
+		// log n comparaisons atm
 		while (idx > 0 && heap[idx] > heap[idx/2]) {
 			swap(heap, idx, idx/2);
 			idx = idx/2;
